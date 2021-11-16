@@ -24,7 +24,7 @@ int main() {
 		}
 		cout << endl;
 	}
-
+	 
 	vector<double> L;
 	L = Find_X(matrix, SIZE);
 	cout << endl << "Собственные значения:" << endl;
@@ -55,7 +55,7 @@ int main() {
 		for (int i = 0; i < SIZE; i++) {
 			double z = 0;
 			for (int j = 0; j < SIZE; j++) {
-				z += matrix[i][j] * VV[index][j];
+				z += matrix[i][j] * VV[index][j]; // что-делаем
 			}
 			vec_1.push_back(z);
 		}
