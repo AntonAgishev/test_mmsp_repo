@@ -12,8 +12,8 @@ string VARIANT = "¬ариант 1";
 
 int main() {
 
-	setlocale(0, "rus");
-
+	setlocale(0, "rus");       // кака€-то шл€па jgjjggigigig
+	   
 	double** matrix;
 
 	matrix = ReadTXT(PATH, VARIANT, SIZE);
